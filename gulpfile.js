@@ -35,7 +35,7 @@ gulp.task("minifyScripts", ["concatScripts"], function() {
 });
 
 gulp.task('compileSass', function() {
-  return gulp.src("assets/css/main.scss")
+  return gulp.src("assets/scss/main.scss")
       .pipe(maps.init())
       .pipe(sass().on('error', sass.logError))
       .pipe(autoprefixer())
@@ -52,7 +52,7 @@ gulp.task("minifyCss", ["compileSass"], function() {
 });
 
 gulp.task('watchFiles', function() {
-  gulp.watch('assets/css/**/*.scss', ['compileSass']);
+  gulp.watch('assets/scss/**/*.scss', ['compileSass']);
   gulp.watch('assets/js/*.js', ['concatScripts']);
 })
 
