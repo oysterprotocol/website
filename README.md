@@ -1,2 +1,1 @@
-# website
-Oyster Protocol website
+# OysterSite
