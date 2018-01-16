@@ -2,6 +2,7 @@
 
 const gulp = require('gulp'),
   concat = require('gulp-concat'),
+  htmlmin = require('gulp-htmlmin'),
   uglify = require('gulp-uglify'),
   rename = require('gulp-rename'),
     sass = require('gulp-sass'),
@@ -68,12 +69,13 @@ gulp.task('clean', function() {
   del(['dist', 'assets/css/main.css*', 'assets/js/main*.js*']);
 });
 
-gulp.task('renameSources', function() {
+gulp.task('cleanHtml', function() {
   return gulp.src('index.html')
     .pipe(htmlreplace({
         'js': 'assets/js/main.min.js',
         'css': 'assets/css/main.min.css'
     }))
+    .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist/'));
 });
 
@@ -93,5 +95,5 @@ gulp.task('serve', ['watchFiles'], function(){
 });
 
 gulp.task("default", ["clean", 'build'], function() {
-  gulp.start('renameSources');
+  gulp.start('cleanHtml');
 });
