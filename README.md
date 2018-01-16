@@ -1,6 +1,6 @@
 # Oyster Protocol Website
 <p align="center">
-![Oyster Protocol](https://oysterprotocol.com/assets/img/perl-large.png "Oyster Protocol Logo")
+<img src="https://oysterprotocol.com/assets/img/perl-large.png" alt="Oyster Protocol Logo" />
 </p>
 
 ## Getting Started
