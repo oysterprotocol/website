@@ -33,7 +33,6 @@ $( document ).ready(function() {
               $('.navbar').addClass("navbar-light");
           }
       });
-      console.log('sdl');
       $('body').scrollspy({target: ".navbar", offset: 50});   
       $("#navbarsExampleDefault a").on('click', function(event) {
           if (this.hash !== "") {
