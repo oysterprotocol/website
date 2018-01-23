@@ -88,7 +88,7 @@ gulp.task('serve', ['watchFiles'], function(){
         server: "./"
     });
 
-    gulp.watch("assets/css/**/*.scss", ['watchFiles']);
+    gulp.watch("assets/scss/**/*.scss", ['watchFiles', 'compileSass', 'minifyCss']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
