@@ -1,6 +1,6 @@
 "use strict";
 
-var gulp = require('gulp'),
+const gulp = require('gulp'),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   rename = require('gulp-rename'),
@@ -35,7 +35,7 @@ gulp.task("minifyScripts", ["concatScripts"], function() {
 });
 
 gulp.task('compileSass', function() {
-  return gulp.src("assets/css/main.scss")
+  return gulp.src("assets/scss/main.scss")
       .pipe(maps.init())
       .pipe(sass().on('error', sass.logError))
       .pipe(autoprefixer())
