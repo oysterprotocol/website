@@ -44,6 +44,11 @@ $( document ).ready(function() {
               $('.navbar').css("top", 0);
           }
       });
+
+      if ($('.countdown-timer-el').length) {
+        countdownTiming();
+      }
+
       $('body').scrollspy({target: ".navbar", offset: 50});   
       $("#navbarsExampleDefault a").on('click', function(event) {
           if (this.hash !== "") {
@@ -57,6 +62,41 @@ $( document ).ready(function() {
           }
       });
   });
+
+
+  function countdownTiming() {
+    // Set the date we're counting down to
+    var countDownTime = $('.countdown-timer-el').attr("data-date");
+    var countDownDate = new Date(countDownTime).getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            $('.countdown-timer-el').find('.date').text(days);
+            $('.countdown-timer-el').find('.hour').text(hours);
+            $('.countdown-timer-el').find('.minute').text(minutes);
+            $('.countdown-timer-el').find('.second').text(seconds);
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+            }
+    }, 1000);
+
+  }
 });
 
 $(window).on('load', function () {
