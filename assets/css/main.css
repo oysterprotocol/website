@@ -8507,17 +8507,16 @@ html {
       font-family: Poppins-semibold;
       line-height: 1;
       border-radius: 5px;
-      padding: 15px;
+      padding: 16px 15px 14px;
       display: inline-block;
-      min-width: 185px; }
-      .banner-new-ear-widget .banner-era a.first-child {
-        border: 2px solid #F4BE1E;
-        color: #F4BE1E; }
-      .banner-new-ear-widget .banner-era a.second-child {
-        padding-top: 17px;
-        padding-bottom: 17px;
-        background: -webkit-gradient(linear, left top, right top, from(#F9D423), to(#E86C04));
-        background: linear-gradient(to right, #F9D423, #E86C04); }
+      min-width: 185px;
+      transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+      border: 2px solid #F7B224; }
+      .banner-new-ear-widget .banner-era a.first-child, .banner-new-ear-widget .banner-era a.second-child {
+        background: #F7B224; }
+        .banner-new-ear-widget .banner-era a.first-child:hover, .banner-new-ear-widget .banner-era a.second-child:hover {
+          color: #F7B224;
+          background: #fff; }
       .banner-new-ear-widget .banner-era a:focus, .banner-new-ear-widget .banner-era a:hover {
         outline: none;
         text-decoration: none; }
@@ -9368,24 +9367,24 @@ html {
             justify-content: center; }
     .containers .section-7 .button-row a {
       display: block;
-      background: #fff;
+      background: transparent;
       font-size: 12px;
       color: #fff;
       font-family: Poppins-semibold;
       line-height: 1;
       border-radius: 5px;
-      padding: 15px;
+      padding: 16px 15px 14px;
       display: inline-block;
       min-width: 195px;
       margin: 10px;
-      border: 2px solid #fff; }
-      .containers .section-7 .button-row a.first-child {
-        color: #F4BE1E; }
-      .containers .section-7 .button-row a.second-child {
-        color: #F4BE1E; }
+      border: 2px solid #fff;
+      transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
       .containers .section-7 .button-row a:focus, .containers .section-7 .button-row a:hover {
         outline: none;
         text-decoration: none; }
+      .containers .section-7 .button-row a:hover {
+        color: #F7B224;
+        background: #fff; }
 
 .footer {
   background-color: #43464C;

@@ -30,17 +30,17 @@
 			font-family: Poppins-semibold;
 			line-height: 1;
 			border-radius: 5px;
-			padding: 15px;
+			padding: 16px 15px 14px;
 			display: inline-block;
 			min-width: 185px;
-			&.first-child {
-				border: 2px solid #F4BE1E;
-				color: #F4BE1E;
-			}
-			&.second-child {
-				padding-top: 17px;
-				padding-bottom: 17px;
-				background: linear-gradient(to right, #F9D423 , #E86C04);
+			transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+			border: 2px solid #F7B224;
+			&.first-child, &.second-child {
+				background: #F7B224;
+				&:hover {
+					color: #F7B224;
+					background: #fff;
+				}
 			}
 			&:focus, &:hover {
 				outline: none;
