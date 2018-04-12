@@ -68,7 +68,7 @@
 		padding: 15px;
 		margin: 0 auto;
 		display: block;
-		max-width: 440px;
+		max-width: 500px;
 		h4 {
 			font-family: Poppins-light;
 			color: #646464;
@@ -78,6 +78,7 @@
 				font-family: Poppins-medium;
 				color: #3a3a3a;
 			}
+			font-size: 14px;
 		}
 		ul {
 			margin: 0 auto;
@@ -87,7 +88,7 @@
 			justify-content: space-between;
 			max-width: 300px;
 			li {
-				width: 64px;
+				width: 320px;
 				height: 75.26px;
 				background: linear-gradient(90deg, #f9b723, #EE9524);
 				border-radius: 5px;
@@ -95,7 +96,7 @@
 				position: relative;
 				p {
 					font-family: Poppins-medium;
-					font-size: 28px;
+					font-size: 20px;
 					color: #fff;
 					position: absolute;
 					top: 10px;
@@ -118,8 +119,11 @@
 			}
 			@media (min-width: 576px) {
 				max-width: 100%;
+				h4 {
+					font-size: 20px;
+				}
 				li {
-					width: 95px;
+					width: 500px;
 					height: 110px;
 					p {
 						font-size: 32px;

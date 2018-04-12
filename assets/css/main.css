@@ -8536,12 +8536,14 @@ html {
     padding: 15px;
     margin: 0 auto;
     display: block;
-    max-width: 440px; }
+    max-width: 500px; }
     .banner-new-ear-widget .banner-countdown h4 {
       font-family: Poppins-light;
       color: #646464;
       margin: 0;
-      line-height: 1.2; }
+      line-height: 1.2;
+      font-size: 14px;
+       }
       .banner-new-ear-widget .banner-countdown h4 span {
         font-family: Poppins-medium;
         color: #3a3a3a; }
@@ -8557,7 +8559,7 @@ html {
               justify-content: space-between;
       max-width: 300px; }
       .banner-new-ear-widget .banner-countdown ul li {
-        width: 64px;
+        width: 320px;
         height: 75.26px;
         background: -webkit-gradient(linear, left top, right top, from(#f9b723), to(#EE9524));
         background: linear-gradient(90deg, #f9b723, #EE9524);
@@ -8566,7 +8568,7 @@ html {
         position: relative; }
         .banner-new-ear-widget .banner-countdown ul li p {
           font-family: Poppins-medium;
-          font-size: 28px;
+          font-size: 20px;
           color: #fff;
           position: absolute;
           top: 10px;
@@ -8587,10 +8589,12 @@ html {
           margin: 0;
           display: block; }
       @media (min-width: 576px) {
+        .banner-new-ear-widget .banner-countdown h4 {
+          font-size: 20px; }
         .banner-new-ear-widget .banner-countdown ul {
           max-width: 100%; }
           .banner-new-ear-widget .banner-countdown ul li {
-            width: 95px;
+            width: 500px;
             height: 110px; }
             .banner-new-ear-widget .banner-countdown ul li p {
               font-size: 32px;
