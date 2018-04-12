@@ -8541,7 +8541,9 @@ html {
       font-family: Poppins-light;
       color: #646464;
       margin: 0;
-      line-height: 1.2; }
+      line-height: 1.2;
+      font-size: 14px;
+       }
       .banner-new-ear-widget .banner-countdown h4 span {
         font-family: Poppins-medium;
         color: #3a3a3a; }
@@ -8587,6 +8589,8 @@ html {
           margin: 0;
           display: block; }
       @media (min-width: 576px) {
+        .banner-new-ear-widget .banner-countdown h4 {
+          font-size: 20px; }
         .banner-new-ear-widget .banner-countdown ul {
           max-width: 100%; }
           .banner-new-ear-widget .banner-countdown ul li {
