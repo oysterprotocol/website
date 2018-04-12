@@ -53,7 +53,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/b5453f87a6.js"></script>
         <script src="assets/js/parallax.js"></script>
         <script src="assets/js/main.js"></script>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="banner-countdown">
                         <h4>SHL Airdrop to PRL holders: <span>April 13, 2018</span></h4>
-                        <ul class="countdown-timer-el" data-date="April 13, 2018">
+                        <ul id="countdown" class="countdown-timer-el" data-date="April 13, 2018">
                             <li><p class="date">27</p><label>Days</label></li>
                             <li><p class="hour">12</p><label>Hours</label></li>
                             <li><p class="minute">15</p><label>Minutes</label></li>
@@ -206,7 +206,7 @@
                                 <div class="pt-4 pb-4 pl-5 pr-4 art-case right-art">
                                     <div class="left-img">
                                         <img src="assets/img/ledger-icon.png" width="120" class="screenshot">
-                                    </div>                         
+                                    </div>
                                     <h3 class="light heading-3">Dual Ledger Integration</h3>
                                     <p class="paragraph-2 light">
                                         The IOTA Tangle (Directed Acyclic Graph) is used for data retention and Proof of Work negotiation between Nodes. The Smart Contract technology of the Ethereum Blockchain is used to produce Oyster Pearls (the token), therefore activating the unique token attributes that enables Oyster operation.
@@ -315,7 +315,7 @@
                                         <p>A network device with access to the Tangle and Blockchain</p>
                                         <div>
                                             <p>Responsibilities</p>
-                                            <ul>     
+                                            <ul>
                                                 <li>Maintain connectivity to the Tangle via mutual neighboring Nodes.</li>
                                                 <li>Provide Web Nodes and Storage Users with access to the Tangle.</li>
                                                 <li>Perform Proof of Work for new file uploads where applicable.</li>
@@ -334,7 +334,7 @@
                                                 <li>Earn Oyster Pearls by collecting fees from newly discovered treasure.</li>
                                             </ul>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                                 <div id="WebNode" class="city" style="display:none">
                                     <div class="main-content">
@@ -428,7 +428,7 @@
                                     }
                                     tablinks = document.getElementsByClassName("tablink");
                                     for (i = 0; i < x.length; i++) {
-                                        tablinks[i].className = tablinks[i].className.replace(" title-blue", ""); 
+                                        tablinks[i].className = tablinks[i].className.replace(" title-blue", "");
                                     }
                                     document.getElementById(cityName).style.display = "block";
                                     evt.currentTarget.className += " title-blue";
@@ -540,7 +540,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
             <div class="section-5" id="core-team">
                 <div class="container">
@@ -561,7 +561,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                         <div class="col-lg-4">
                             <div class="team">
                                 <div class="team-avatar">
@@ -569,7 +569,7 @@
                                 </div>
                                 <p class="team-name">Bill Cordes</p>
                                 <p class="team-title">Chief Financial Officer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:bill@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/wcordes" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -583,14 +583,14 @@
                                 </div>
                                 <p class="team-name">Alex Firmani</p>
                                 <p class="team-title">Chief Technical Officer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:alex.f@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/alexfirmani" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
-		
+
                         <div class="col-lg-4">
                             <div class="team">
                                 <div class="team-avatar">
@@ -598,7 +598,7 @@
                                 </div>
                                 <p class="team-name">Chris Garner</p>
                                 <p class="team-title">Advertising Evangelist at Oyster</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:chris.g@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/garnerchris" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -612,7 +612,7 @@
                                 </div>
                                 <p class="team-name">Chris Bamber</p>
                                 <p class="team-title">Director of Operations</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:chris.b@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/bamber" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -626,7 +626,7 @@
                                 </div>
                                 <p class="team-name">Taylor French</p>
                                 <p class="team-title">Communications & Design</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:taylor@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/taylorfrench93" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -641,7 +641,7 @@
                                 </div>
                                 <p class="team-name">Aaron Vasquez</p>
                                 <p class="team-title">Full-Stack Developer & Blockchain Engineer </p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:aaron.v@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/aaronvasquezadilla" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -656,7 +656,7 @@
                                 </div>
                                 <p class="team-name">Edmund Mai</p>
                                 <p class="team-title">Blockchain Engineer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:edmund.m@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/edmundmai" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -671,7 +671,7 @@
                                 </div>
                                 <p class="team-name">Andrew Smigaj</p>
                                 <p class="team-title">Software Engineer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:andrew.s@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/andrew-smigaj-96849038/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -686,7 +686,7 @@
                                 </div>
                                 <p class="team-name">Rebel Fornea</p>
                                 <p class="team-title">Software Engineer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:rebel.f@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/rebel-fornea-7640b8122/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -701,7 +701,7 @@
                                 </div>
                                 <p class="team-name">Johann Lilly </p>
                                 <p class="team-title">Software Engineer</p>
-                                <div class="team-content"></div>    
+                                <div class="team-content"></div>
                                 <div class="team-socialIcon">
                                     <a href="mailto:johann.l@oyster.ws"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                                     <a href="https://www.linkedin.com/in/johannlilly" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -746,7 +746,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
             <div class="section-6" id="token">
                 <div class="container">
@@ -802,4 +802,5 @@
         <!-- <script src="assets/js/main.js"></script> -->
         <!-- endbuild -->
     </body>
+      <script type="text/javascript" src="assets/js/countdown.js"></script>
 </html>
