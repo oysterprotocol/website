@@ -8557,7 +8557,7 @@ html {
               justify-content: space-between;
       max-width: 300px; }
       .banner-new-ear-widget .banner-countdown ul li {
-        width: 64px;
+        width: 320px;
         height: 75.26px;
         background: -webkit-gradient(linear, left top, right top, from(#f9b723), to(#EE9524));
         background: linear-gradient(90deg, #f9b723, #EE9524);
@@ -8590,7 +8590,7 @@ html {
         .banner-new-ear-widget .banner-countdown ul {
           max-width: 100%; }
           .banner-new-ear-widget .banner-countdown ul li {
-            width: 95px;
+            width: 500px;
             height: 110px; }
             .banner-new-ear-widget .banner-countdown ul li p {
               font-size: 32px;
