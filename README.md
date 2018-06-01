@@ -26,14 +26,11 @@ To build the project run:
 gulp
 ```
 
-## File Watcher + Live Reload
-
-To enable live reload run:
-
+## Contribute to Project
+To run and modify project run:
 ```shell
-npm start
+gulp serve
 ```
-
 ## Built With
 
 * [Node](https://nodejs.org/en/) - Build Framework
