@@ -38,6 +38,24 @@
     }
 }
 
+.wp-translations {
+    margin-top: 10px;
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            color: #A6E5F7;
+        }
+
+        &:active,
+        &:focus {
+            text-decoration: none;
+            color: #A6E5F7;
+        }
+    }
+}
+
 .bg-border {
     border-bottom: 1px solid white;
 }
