@@ -1,6 +1,6 @@
 # Oyster Protocol Website
 <p align="center">
-<img src="https://oysterprotocol.com/assets/img/perl-large.png" alt="Oyster Protocol Logo" />
+<img src="https://oysterprotocol.com/wp-content/themes/woxa/images/svg/oyster-logo.svg" width=250 alt="Oyster Protocol Logo" />
 </p>
 
 ## Getting Started
